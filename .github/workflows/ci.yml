@@ -9,9 +9,9 @@ jobs:
     test:
     runs-on: ubuntu-latest      
 
-steps:
-    - name: Checkout code
-      uses: actions/checkout@v4    
+    steps:
+     - name: Checkout code
+       uses: actions/checkout@v4    
 
-    - name: Test my application
-      run: echo "GitHub Action is working!"
+     - name: Test my application
+       run: echo "GitHub Action is working!"
